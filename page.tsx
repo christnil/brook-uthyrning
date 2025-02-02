@@ -1,8 +1,8 @@
-import { properties } from "@/data/properties"
-import { PropertyGallery } from "@/components/property-gallery"
-import { PropertySection } from "@/components/property-section"
+import { properties } from "./data/properties"
+import { PropertyGallery } from "./components/property-gallery"
+import { PropertySection } from "./components/property-section"
 
-export default function Home() {
+export default function Page() {
   return (
     <div className="min-h-screen bg-white">
       <main className="container mx-auto px-4">
@@ -20,5 +20,6 @@ export default function Home() {
         </div>
       </main>
     </div>
-  );
+  )
 }
+
