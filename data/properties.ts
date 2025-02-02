@@ -13,28 +13,28 @@ export const properties: Property[] = [
     ],
     images: [
       {
-        url: "/placeholder.svg?height=400&width=600",
+        url: "/static/kinner.jpg",
         alt: "Exterior view of the room entrance",
       },
       {
-        url: "/placeholder.svg?height=400&width=600",
+        url: "/static/kinner.jpg",
         alt: "Cozy bedroom interior",
       },
       {
-        url: "/placeholder.svg?height=400&width=600",
+        url: "/static/kinner.jpg",
         alt: "Modern bathroom",
       },
       {
-        url: "/placeholder.svg?height=400&width=600",
+        url: "/static/kinner.jpg",
         alt: "Comfortable bed setup",
       },
       {
-        url: "/placeholder.svg?height=400&width=600",
+        url: "/static/kinner.jpg",
         alt: "Breakfast setting",
       },
     ],
     mainImage: {
-      url: "/placeholder.svg?height=600&width=800",
+      url: "/static/kinner.jpg",
       alt: "Main view of the property",
     },
   },
@@ -50,20 +50,20 @@ export const properties: Property[] = [
     ],
     images: [
       {
-        url: "/placeholder.svg?height=400&width=600",
+        url: "/static/kinner.jpg",
         alt: "Living room area",
       },
       {
-        url: "/placeholder.svg?height=400&width=600",
+        url: "/static/kinner.jpg",
         alt: "Kitchen space",
       },
       {
-        url: "/placeholder.svg?height=400&width=600",
+        url: "/static/kinner.jpg",
         alt: "Master bedroom",
       },
     ],
     mainImage: {
-      url: "/placeholder.svg?height=600&width=800",
+      url: "/static/kinner.jpg",
       alt: "Exterior view of apartments",
     },
   },
