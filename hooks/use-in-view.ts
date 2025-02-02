@@ -1,8 +1,9 @@
 "use client"
 
 import { useEffect, useRef, useState } from "react"
+import type { IntersectionObserverOptions } from "intersection-observer"
 
-export function useInView(options?: IntersectionObserverInit) {
+export function useInView(options?: IntersectionObserverOptions) {
   const ref = useRef<HTMLDivElement>(null)
   const [isInView, setIsInView] = useState(false)
 
