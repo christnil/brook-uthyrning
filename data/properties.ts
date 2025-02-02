@@ -13,28 +13,28 @@ export const properties: Property[] = [
     ],
     images: [
       {
-        url: "/static/kinner.jpg",
+        url: "/images/kinner.jpg",
         alt: "Exterior view of the room entrance",
       },
       {
-        url: "/static/kinner.jpg",
+        url: "/images/kinner.jpg",
         alt: "Cozy bedroom interior",
       },
       {
-        url: "/static/kinner.jpg",
+        url: "/images/kinner.jpg",
         alt: "Modern bathroom",
       },
       {
-        url: "/static/kinner.jpg",
+        url: "/images/kinner.jpg",
         alt: "Comfortable bed setup",
       },
       {
-        url: "/static/kinner.jpg",
+        url: "/images/kinner.jpg",
         alt: "Breakfast setting",
       },
     ],
     mainImage: {
-      url: "/static/kinner.jpg",
+      url: "/images/kinner.jpg",
       alt: "Main view of the property",
     },
   },
@@ -50,20 +50,20 @@ export const properties: Property[] = [
     ],
     images: [
       {
-        url: "/static/kinner.jpg",
+        url: "/images/kinner.jpg",
         alt: "Living room area",
       },
       {
-        url: "/static/kinner.jpg",
+        url: "/images/kinner.jpg",
         alt: "Kitchen space",
       },
       {
-        url: "/static/kinner.jpg",
+        url: "/images/kinner.jpg",
         alt: "Master bedroom",
       },
     ],
     mainImage: {
-      url: "/static/kinner.jpg",
+      url: "/images/kinner.jpg",
       alt: "Exterior view of apartments",
     },
   },
