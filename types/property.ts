@@ -17,3 +17,8 @@ export interface Property {
   mainImage: PropertyImage
 }
 
+export interface PropertyListing {
+  generalInfo: string[]
+  heroImage: PropertyImage
+}
+

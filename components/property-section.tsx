@@ -1,8 +1,7 @@
 "use client"
 
 import type { Property } from "../types/property"
-import { ServerImage } from "./server-image"
-import { AnimatedImage } from "./animated-image"
+import { ImageGallery } from "./image-gallery"
 import { useInView } from "../hooks/use-in-view"
 import { cn } from "../lib/utils"
 
@@ -35,16 +34,7 @@ export function PropertySection({ property, imagePosition = "right" }: PropertyS
         </ul>
       </div>
       <div className={imagePosition === "right" ? "order-2 md:order-2" : "order-2 md:order-1"}>
-        <ServerImage
-          src={property.mainImage.url || "/placeholder.svg"}
-          alt={property.mainImage.alt}
-          className="aspect-[4/3] rounded-lg js-only:hidden"
-        />
-        <AnimatedImage
-          src={property.mainImage.url || "/placeholder.svg"}
-          alt={property.mainImage.alt}
-          className="aspect-[4/3] rounded-lg hidden js-only:block"
-        />
+        <ImageGallery images={property.images} />
       </div>
     </div>
   )
