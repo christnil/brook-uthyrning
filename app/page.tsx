@@ -1,7 +1,9 @@
 import { accomodations, mainProperty } from "@/data/properties"
+import { pricingInfo } from "@/data/pricing"
 import { HeroSection } from "@/components/hero-section"
 import { PropertySection } from "@/components/property-section"
 import { Separator } from "@/components/ui/separator"
+import { PricingSection } from "@/components/pricing-section"
 
 export default function Page() {
   return (
@@ -27,6 +29,11 @@ export default function Page() {
             </div>
           ))}
         </div>
+
+        <Separator className="my-8" />
+
+        {/* Pricing section */}
+        <PricingSection pricingInfo={pricingInfo} />
       </main>
     </div>
   )
