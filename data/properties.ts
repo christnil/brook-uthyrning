@@ -2,7 +2,7 @@ import type { PropertyListing, Property } from "../types/property"
 
 export const mainProperty: PropertyListing = {
   heroImage: {
-    url: "/images/kinner.jpg",
+    url: "/images/hero.jpeg",
     alt: "Exterior view of the property",
   },
   generalInfo: [
@@ -15,7 +15,7 @@ export const mainProperty: PropertyListing = {
 export const accomodations: Property[] = [
   {
     id: "stuga-6",
-    title: "Stuga sex personer",
+    title: "Sune - Stuga sex personer",
     description:
       "Stugan har ett sovrum med två enkelsängar som kan sättas ihop till dubbelsäng, ett sovrum med våningssäng, stugan har bäddsoffa i vardagsrummet. Köksutrustning till sex personer, veranda med enklare utemöbel.",
     features: [
@@ -24,24 +24,40 @@ export const accomodations: Property[] = [
     ],
     images: [
       {
-        url: "/images/kinner.jpg",
-        alt: "Exterior view of the room entrance",
+        url: "/images/sune/sune9.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Cozy bedroom interior",
+        url: "/images/sune/sune1.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Modern bathroom",
+        url: "/images/sune/sune2.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Comfortable bed setup",
+        url: "/images/sune/sune3.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Breakfast setting",
+        url: "/images/sune/sune4.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sune/sune5.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sune/sune6_1.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sune/sune7.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sune/sune8.jpg",
+        alt: "",
       },
     ],
     mainImage: {
@@ -51,7 +67,7 @@ export const accomodations: Property[] = [
   },
   {
     id: "stuga-4",
-    title: "Stuga fyra personer",
+    title: "Ville - Stuga fyra personer",
     description:
       "Stugan har ett sovrum med två enkelsängar som kan sättas ihop till dubbelsäng, ett sovrum med våningssäng. Köksutrustning till sex personer, veranda med enklare utemöbel.",
     features: [
@@ -60,16 +76,44 @@ export const accomodations: Property[] = [
     ],
     images: [
       {
-        url: "/images/kinner.jpg",
-        alt: "Living room area",
+        url: "/images/ville/ville10.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Kitchen space",
+        url: "/images/ville/ville1.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Master bedroom",
+        url: "/images/ville/ville2.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/ville/ville3.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/ville/ville4.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/ville/ville5.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/ville/ville6.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/ville/ville7.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/ville/ville8.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/ville/ville9.jpg",
+        alt: "",
       },
     ],
     mainImage: {
@@ -79,23 +123,51 @@ export const accomodations: Property[] = [
   },
   {
     id: "gavellagenhet-4",
-    title: "Lägenhet fyra personer",
+    title: "Klinten, Väten - Lägenhet fyra personer",
     description:
       "Gavellägenheterna har ett sovrum med två enkelsängar, bäddsoffa med plats för två personer i vardagsrum/kök. Eget badrum med dusch och toalett. Köksutrustning till sex personer, veranda med enklare utemöbel.",
     features: [
     ],
     images: [
       {
-        url: "/images/kinner.jpg",
-        alt: "Living room area",
+        url: "/images/klinten/klinten5.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Kitchen space",
+        url: "/images/klinten/klinten1.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Master bedroom",
+        url: "/images/klinten/klinten2.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/klinten/klinten3.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/klinten/klinten4.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/vaten/vaten1.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/vaten/vaten2.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/vaten/vaten3.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/vaten/vaten4.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/vaten/vaten5.jpg",
+        alt: "",
       },
     ],
     mainImage: {
@@ -105,23 +177,31 @@ export const accomodations: Property[] = [
   },
   {
     id: "lagenhet-6",
-    title: "Lägenhet sex personer",
+    title: "Rauken - Lägenhet sex personer",
     description:
       "Lägenheten har ett sovrum med två våningssängar, bäddsoffa med plats för två personer i vardagsrum/kök. Eget badrum med dusch och toalett. Köksutrustning till sex personer",
     features: [
     ],
     images: [
       {
-        url: "/images/kinner.jpg",
-        alt: "Living room area",
+        url: "/images/rauken/rauken3.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Kitchen space",
+        url: "/images/rauken/rauken1.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Master bedroom",
+        url: "/images/rauken/rauken2.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/rauken/rauken4.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/rauken/rauken5.jpg",
+        alt: "",
       },
     ],
     mainImage: {
@@ -131,23 +211,51 @@ export const accomodations: Property[] = [
   },
   {
     id: "lagenhet-4",
-    title: "Lägenhet fyra personer",
+    title: "Änget, Sojdet - Lägenhet fyra personer",
     description:
       "Lägenheten har ett sovrum med två våningssängar Eget badrum med dusch och toalett. Köksutrustning",
     features: [
     ],
     images: [
       {
-        url: "/images/kinner.jpg",
-        alt: "Living room area",
+        url: "/images/anget/anget4.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Kitchen space",
+        url: "/images/anget/anget1.jpg",
+        alt: "",
       },
       {
-        url: "/images/kinner.jpg",
-        alt: "Master bedroom",
+        url: "/images/anget/anget2.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/anget/anget3.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/anget/anget5.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sojdet/sojdet1.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sojdet/sojdet2.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sojdet/sojdet3.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sojdet/sojdet4.jpg",
+        alt: "",
+      },
+      {
+        url: "/images/sojdet/sojdet5.jpg",
+        alt: "",
       },
     ],
     mainImage: {
