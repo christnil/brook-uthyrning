@@ -27,7 +27,9 @@ export function ImageGallery({ images }: ImageGalleryProps) {
       <div className="overflow-hidden">
         <div
           className="flex transition-transform duration-300 ease-in-out"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
+          style={{
+            transform: `translateX(-${currentIndex * 100}%)`,
+          }}
         >
           {images.map((image, index) => (
             <div key={index} className="w-full flex-shrink-0">
@@ -42,13 +44,18 @@ export function ImageGallery({ images }: ImageGalleryProps) {
         <Button
           variant="outline"
           size="icon"
-          className="hidden md:flex bg-white/80 hover:bg-white"
+          className="bg-white/80 hover:bg-white h-8 w-8 md:h-10 md:w-10"
           onClick={goToPrevious}
         >
-          <ChevronLeft className="h-4 w-4" />
+          <ChevronLeft className="h-3 w-3 md:h-4 md:w-4" />
         </Button>
-        <Button variant="outline" size="icon" className="hidden md:flex bg-white/80 hover:bg-white" onClick={goToNext}>
-          <ChevronRight className="h-4 w-4" />
+        <Button 
+          variant="outline" 
+          size="icon" 
+          className="bg-white/80 hover:bg-white h-8 w-8 md:h-10 md:w-10" 
+          onClick={goToNext}
+        >
+          <ChevronRight className="h-3 w-3 md:h-4 md:w-4" />
         </Button>
       </div>
       <div className="absolute bottom-4 left-0 right-0">
@@ -68,4 +75,3 @@ export function ImageGallery({ images }: ImageGalleryProps) {
     </div>
   )
 }
-
