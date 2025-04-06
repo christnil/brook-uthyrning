@@ -96,6 +96,30 @@ export function PricingSection({ pricingInfo }: PricingSectionProps) {
               <span>{info}</span>
             </li>
           ))}
+          <li className="flex items-start">
+            <span className="mr-2">•</span>
+            <span>
+              Har du frågor angående uthyrning kan du skicka e-post till{" "}
+              <a 
+                href="mailto:bokning@gotlandsbrook.com" 
+                className="text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-colors"
+              >
+                bokning@gotlandsbrook.com
+              </a>
+            </span>
+          </li>
+          <li className="flex items-start">
+            <span className="mr-2">•</span>
+            <span>För att boka fyll i formuläret{" "}
+              <a
+                href="https://www.gotlandsbrook.com/information/uthyrning/"
+                target="_blank"
+                className="text-blue-600 hover:text-blue-800 font-medium underline hover:no-underline transition-colors"
+              >
+                här
+              </a>
+            </span>
+          </li>
         </ul>
       </Card>
     </section>

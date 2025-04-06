@@ -43,7 +43,6 @@ export const pricingInfo: PricingInfo = {
     additionalInfo: [
       "Kinnerstugan (storstugan) kan hyras för 800:- / dygn. I stugan finns en konferenslokal med plats för 70 sittande konferensdeltagare samt kök med porslin och annan utrustning för fester och event. För att hyra Kinnerstugan kontaktar du bokning@gotlandsbrook.com",
       "Vid stugan finns laddstolpar där man kan ladda elbilar mot betalning. Som betallösning används Real Load.",
-      "Har du frågor angående uthyrning kan du skicka e-post till bokning@gotlandsbrook.com",
     ],
   }
   
